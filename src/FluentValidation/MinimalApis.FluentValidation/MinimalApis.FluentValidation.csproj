@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>library</OutputType>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Title>MinimalApis.FluentValidation</Title>
+    <Description>Extensions for FluentValidation including additions to help work with MinimalApis</Description>
+    <Copyright>Wilder Minds LLC</Copyright>
+    <PackageIcon>wilderminds-logo.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageTags>minimalapi fluentvalidation</PackageTags>
+    <PackageLicenseFile>license</PackageLicenseFile>
+    <IsPackable>true</IsPackable>
+    <PackageProjectUrl>https://github.com/shawnwildermuth/MinimalApis.FluentValidation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shawnwildermuth/MinimalApis.FluentValidation</RepositoryUrl>
+    <PackageReleaseNotes>First version.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0.0-beta</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\license">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\wilderminds-logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\wilderminds-logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

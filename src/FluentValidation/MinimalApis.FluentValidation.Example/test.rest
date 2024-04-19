@@ -1,0 +1,84 @@
+# Valid
+POST {{$projectUrl}}/test
+Content-Type: application/json
+
+{
+  "firstName": "Shawn",
+  "lastName": "Wildermuth",
+  "email": "shawn@aol.com"
+}
+
+###
+
+# Invalid
+POST {{$projectUrl}}/test
+Content-Type: application/json
+
+{
+  "firstName": "S",
+  "lastName": "",
+  "email": "s@"
+}
+
+###
+
+# Raw EndpointFilter
+PUT {{$projectUrl}}/test
+Content-Type: application/json
+
+{
+  "firstName": "Shawn",
+  "lastName": "Wildermuth",
+  "email": "shawn@aol.com"
+}
+
+###
+
+# Collection Successful
+POST {{$projectUrl}}/test/collection
+Content-Type: application/json
+
+[
+  {
+    "firstName": "Shawn",
+    "lastName": "Wildermuth",
+    "email": "shawn@aol.com"
+  },
+  {
+    "firstName": "Shawn",
+    "lastName": "Wildermuth",
+    "email": "shawn@aol.com"
+  },
+  {
+    "firstName": "Shawn",
+    "lastName": "Wildermuth",
+    "email": "shawn@aol.com"
+  }
+]
+
+
+
+###
+
+# Collection (Failure)
+POST {{$projectUrl}}/test/collection
+Content-Type: application/json
+
+[
+  {
+    "firstName": "S",
+    "lastName": "",
+    "email": "s@"
+  },
+  {
+    "firstName": "Shawn",
+    "lastName": "Wildermuth",
+    "email": "shawn@aol.com"
+  },
+  {
+    "firstName": "S",
+    "lastName": "",
+    "email": "s@"
+  }
+]
+
