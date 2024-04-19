@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
-namespace MinimalApiDiscovery.Tests;
+namespace MinimalApis.Discovery.Tests;
 
 public class BadApi : IApi
 {

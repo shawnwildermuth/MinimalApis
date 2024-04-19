@@ -1,18 +1,18 @@
 using System.Reflection;
 using Microsoft.AspNetCore.Http.HttpResults;
 using UsingMinimalApiDiscovery.Data;
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
 namespace UsingMinimalApiDiscovery.Apis;
 
-public class CustomerApi : IApi
+public class CustomerApi : IApi  
 {
 
   public void Register(IEndpointRouteBuilder builder)
   {
     var grp = builder.MapGroup("/api/customers");
     grp.MapGet("", GetCustomers);
-    grp.MapGet("", GetCustomer);
+    grp.MapGet("{id}", GetCustomer);
     grp.MapPost("{id:int}", SaveCustomer);
     grp.MapPut("{id:int}", UpdateCustomer);
     grp.MapDelete("{id:int}", DeleteCustomer);

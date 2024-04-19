@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApis.FluentValidatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApis.FluentValidation.Tests", "MinimalApis.FluentValidation.Tests\MinimalApis.FluentValidation.Tests.csproj", "{F3CCE288-00B3-480F-B47C-EC5961D53092}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApis.FluentValidation.Example", "MinimalApis.FluentValidation.Example\MinimalApis.FluentValidation.Example.csproj", "{A230B3A1-F49B-4E0A-93C9-946AD0BA8B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "MinimalApis.FluentValidation.Example\Example.csproj", "{A230B3A1-F49B-4E0A-93C9-946AD0BA8B4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0525B38D-62B3-4B01-8B0E-9D683490D931}"
 	ProjectSection(SolutionItems) = preProject

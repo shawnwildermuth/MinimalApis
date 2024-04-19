@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 
-namespace WilderMinds.MinimalApiDiscovery;
+namespace MinimalApis.Discovery;
 
 /// <summary>
 /// An interface for Identifying and registering APIs

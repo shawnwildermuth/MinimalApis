@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace WilderMinds.MinimalApiDiscovery
+namespace MinimalApis.Discovery
 {
   /// <summary>
   /// Exception thrown during Discovery of Minimal API calls

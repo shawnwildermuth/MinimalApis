@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
 namespace MinimalApiDiscovery.Tests;
 
-public class DumbApi : IApi
+public abstract class BaseApi : IApi
 {
   public void Register(IEndpointRouteBuilder builder)
   {
-    builder.MapGet("/api", Get);
+    RegisterGets(builder);
   }
 
-  static IResult Get() => Results.Ok("Works");
+  public abstract IEndpointRouteBuilder RegisterGets(IEndpointRouteBuilder builder);
 }

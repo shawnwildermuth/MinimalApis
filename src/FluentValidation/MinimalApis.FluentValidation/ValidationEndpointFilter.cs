@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
 
-namespace WilderMinds.MinimalApis.FluentValidation;
+namespace MinimalApis.FluentValidation;
 
 /// <summary>
 /// Endpoint Filter for Minimal APIs to automatically validate

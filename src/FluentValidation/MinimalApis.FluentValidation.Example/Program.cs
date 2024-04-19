@@ -1,6 +1,6 @@
 using System.Reflection;
 using FluentValidation;
-using WilderMinds.MinimalApis.FluentValidation;
+using MinimalApis.FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 

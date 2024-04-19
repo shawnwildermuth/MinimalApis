@@ -3,18 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <PackageId>WilderMinds.$(AssemblyName)</PackageId>
+    <PackageId>MinimalApis.$(AssemblyName)</PackageId>
     <LangVersion>latest</LangVersion>
-    <RootNamespace>WilderMinds.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
     <OutputType>Library</OutputType>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <Title>MinimalApiDiscovery</Title>
+    <Title>MinimalApis.Discovery</Title>
     <Authors>Shawn Wildermuth</Authors>
     <Company>Wilder Minds LLC</Company>
     <Description>A utility library to allow for structuring Minimal APIs and registering them via source generator.</Description>
     <Copyright>2023, Wilder Minds LLC</Copyright>
-    <PackageProjectUrl>https://github.com/wilder-minds/minimalapidiscovery</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/wilder-minds/minimalapidiscovery</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/shawnwildermuth/minimalapis</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shawnwildermuth/minimalapis</RepositoryUrl>
     <PackageTags>C#,Minimal APIs, ASP.NET Core</PackageTags>
     <PackageReleaseNotes>[Version History](https://github.com/wilder-minds/MinimalApiDiscovery/blob/main/VersionHistory.md)</PackageReleaseNotes>
     <AssemblyVersion>1.0.6</AssemblyVersion>
@@ -25,10 +25,11 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <AssemblyName>MinimalApis.$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\MinimalApiDiscoveryGenerator\bin\$(Configuration)\netstandard2.0\MinimalApiDiscoveryGenerator.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    <None Include="..\MinimalApis.Discovery.Generator\bin\$(Configuration)\netstandard2.0\MinimalApis.Discovery.Generator.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
   </ItemGroup>
 
   <ItemGroup>

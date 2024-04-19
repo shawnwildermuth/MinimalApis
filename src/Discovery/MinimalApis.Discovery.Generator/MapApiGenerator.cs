@@ -11,7 +11,7 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Text;
 
-namespace MinimalApiDiscoveryGenerator;
+namespace MinimalApis.Discovery.Generator;
 
 [Generator]
 public class MapApiGenerator : IIncrementalGenerator
@@ -49,9 +49,9 @@ public class MapApiGenerator : IIncrementalGenerator
 using System;
 using Microsoft.AspNetCore.Builder;
 
-namespace WilderMinds.MinimalApiDiscovery
+namespace MinimalApis.Discovery
 {{
-  public static class MinimalApiDiscoveryGeneratedExtensions
+  public static class MinimalApisDiscoveryGeneratedExtensions
   {{
     public static WebApplication MapApis(this WebApplication app)
     {{
@@ -109,7 +109,7 @@ namespace WilderMinds.MinimalApiDiscovery
         // Get all interfaces (class and subclasses)
         foreach (var iSymbol in symbol.AllInterfaces)
         {
-          if (iSymbol.ToDisplayString() == "WilderMinds.MinimalApiDiscovery.IApi")
+          if (iSymbol.ToDisplayString() == "MinimalApis.Discovery.IApi")
           {
             return (
               Name: symbol.ToDisplayString(),

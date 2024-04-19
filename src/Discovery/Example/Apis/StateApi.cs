@@ -1,5 +1,5 @@
 using UsingMinimalApiDiscovery.Data;
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
 namespace UsingMinimalApiDiscovery.Apis;
 

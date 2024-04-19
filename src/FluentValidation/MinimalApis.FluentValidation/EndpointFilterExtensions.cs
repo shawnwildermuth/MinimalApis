@@ -1,4 +1,4 @@
-﻿namespace WilderMinds.MinimalApis.FluentValidation;
+﻿namespace MinimalApis.FluentValidation;
 
 public static class EndpointBuilderExtensions
 {

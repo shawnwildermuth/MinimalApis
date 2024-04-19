@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
-using MinimalApiDiscovery.Tests;
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery.Tests;
+using MinimalApis.Discovery;
 
 namespace WilderMinds.MinimalApiDiscovery.Tests;
 
