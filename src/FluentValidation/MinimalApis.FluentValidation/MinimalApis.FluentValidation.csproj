@@ -10,7 +10,7 @@
     <Description>Extensions for FluentValidation including additions to help work with MinimalApis</Description>
     <Copyright>Wilder Minds LLC</Copyright>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageReadmeFile>MinimalApi.FluentValidation.md</PackageReadmeFile>
+    <PackageReadmeFile>MinimalApis.FluentValidation.md</PackageReadmeFile>
     <PackageTags>minimalapi fluentvalidation</PackageTags>
     <PackageLicenseFile>license.md</PackageLicenseFile>
     <IsPackable>true</IsPackable>
@@ -38,7 +38,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\..\MinimalApi.FluentValidation.md">
+    <None Include="..\..\..\MinimalApis.FluentValidation.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
