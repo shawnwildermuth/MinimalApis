@@ -7,6 +7,7 @@ on:
       - src/FluentValidation/**
   pull_request:
     branches: [ "main" ]
+    paths:
       - src/FluentValidation/**
 
 jobs:
