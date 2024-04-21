@@ -9,29 +9,40 @@
     <Title>MinimalApis.FluentValidation</Title>
     <Description>Extensions for FluentValidation including additions to help work with MinimalApis</Description>
     <Copyright>Wilder Minds LLC</Copyright>
-    <PackageIcon>wilderminds-logo.png</PackageIcon>
-    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageReadmeFile>MinimalApi.FluentValidation.md</PackageReadmeFile>
     <PackageTags>minimalapi fluentvalidation</PackageTags>
-    <PackageLicenseFile>license</PackageLicenseFile>
+    <PackageLicenseFile>license.md</PackageLicenseFile>
     <IsPackable>true</IsPackable>
-    <PackageProjectUrl>https://github.com/shawnwildermuth/MinimalApis.FluentValidation</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/shawnwildermuth/MinimalApis.FluentValidation</RepositoryUrl>
-    <PackageReleaseNotes>First version.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/shawnwildermuth/MinimalApis</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shawnwildermuth/MinimalApis</RepositoryUrl>
+    <PackageReleaseNotes>
+      1.0.0.0-beta First Version.
+      1.0.0.0      Released Version of Package.
+    </PackageReleaseNotes>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0.0-beta</Version>
+    <Version>1.0.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>shawnwildermuth</Authors>
+    <Company>Wilder Minds, LLC</Company>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\license">
+    <None Include="..\..\..\license.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\readme.md">
+    <None Include="..\..\..\logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\wilderminds-logo.png">
+    <None Include="..\..\..\MinimalApi.FluentValidation.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\logo.svg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
