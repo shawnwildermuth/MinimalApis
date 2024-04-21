@@ -23,11 +23,11 @@ jobs:
           8.0.x
           7.0.x
     - name: Restore dependencies
-      working-directory: ./src
+      working-directory: ./src/FluentValidation
       run: dotnet restore
     - name: Build
-      working-directory: ./src
+      working-directory: ./src/FluentValidation
       run: dotnet build --no-restore
     - name: Test
-      working-directory: ./src
+      working-directory: ./src/FluentValidation
       run: dotnet test --no-build --verbosity normal
