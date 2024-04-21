@@ -12,7 +12,7 @@
     <Authors>Shawn Wildermuth</Authors>
     <Company>Wilder Minds LLC</Company>
     <Description>A utility library to allow for structuring Minimal APIs and registering them via source generator.</Description>
-    <Copyright>2023, Wilder Minds LLC</Copyright>
+    <Copyright>2023-2024, Wilder Minds LLC</Copyright>
     <PackageProjectUrl>https://github.com/shawnwildermuth/minimalapis</PackageProjectUrl>
     <RepositoryUrl>https://github.com/shawnwildermuth/minimalapis</RepositoryUrl>
     <PackageTags>C#,Minimal APIs, ASP.NET Core</PackageTags>
@@ -23,7 +23,7 @@
     <IsPackable>true</IsPackable>
     <Version>1.0.7</Version>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageReadmeFile>MinimalApi.Discovery.md</PackageReadmeFile>
+    <PackageReadmeFile>MinimalApis.Discovery.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <AssemblyName>MinimalApis.$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
@@ -37,19 +37,11 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\..\MinimalApi.Discovery.md">
+    <None Include="..\..\..\MinimalApis.Discovery.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
     <None Include="..\MinimalApis.Discovery.Generator\bin\$(Configuration)\netstandard2.0\MinimalApis.Discovery.Generator.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <None Update="icon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>

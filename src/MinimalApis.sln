@@ -19,17 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discovery.Generator", "Disc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discovery.Tests", "Discovery\MinimalApis.Discovery.Tests\Discovery.Tests.csproj", "{15ABF435-4F3B-4FD5-B23A-5BC229C2C089}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Discovery\Example\Example.csproj", "{2B107702-9EB0-441F-B29F-61B33F0F3F29}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1B39B7CF-4788-4C8B-B83C-EE25B3514DB9} = {1B39B7CF-4788-4C8B-B83C-EE25B3514DB9}
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0CBC14A-2637-45E9-8E30-BE990C115380}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\discovery.yml = ..\.github\workflows\discovery.yml
 		..\LICENSE.md = ..\LICENSE.md
-		..\MinimalApi.Discovery.md = ..\MinimalApi.Discovery.md
-		..\MinimalApi.FluentValidation.md = ..\MinimalApi.FluentValidation.md
+		..\MinimalApis.Discovery.md = ..\MinimalApis.Discovery.md
+		..\MinimalApis.FluentValidation.md = ..\MinimalApis.FluentValidation.md
 		..\readme.md = ..\readme.md
 		..\.github\workflows\validation.yml = ..\.github\workflows\validation.yml
 	EndProjectSection
@@ -64,10 +59,6 @@ Global
 		{15ABF435-4F3B-4FD5-B23A-5BC229C2C089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15ABF435-4F3B-4FD5-B23A-5BC229C2C089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15ABF435-4F3B-4FD5-B23A-5BC229C2C089}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B107702-9EB0-441F-B29F-61B33F0F3F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B107702-9EB0-441F-B29F-61B33F0F3F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B107702-9EB0-441F-B29F-61B33F0F3F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B107702-9EB0-441F-B29F-61B33F0F3F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,7 +70,6 @@ Global
 		{1B39B7CF-4788-4C8B-B83C-EE25B3514DB9} = {0C3A34FE-C630-4F22-ACC7-38DD87D53D06}
 		{2806ECB4-D46C-4999-A44F-527CA725E33C} = {0C3A34FE-C630-4F22-ACC7-38DD87D53D06}
 		{15ABF435-4F3B-4FD5-B23A-5BC229C2C089} = {0C3A34FE-C630-4F22-ACC7-38DD87D53D06}
-		{2B107702-9EB0-441F-B29F-61B33F0F3F29} = {0C3A34FE-C630-4F22-ACC7-38DD87D53D06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A5AC0C2-8FBC-42A9-8DE7-15E0DA32AB39}
