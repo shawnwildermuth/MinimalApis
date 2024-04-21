@@ -9,6 +9,8 @@ on:
     branches: [ "main" ]
     paths:
       - src/FluentValidation/**
+  workflow_dispatch:
+
 
 jobs:
   build:
