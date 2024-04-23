@@ -22,13 +22,13 @@ Note: I have a complete write-up and video of this package at: https://wildermut
 To get started, you can just install the package from Nuget or using the .NET tool:
 
 ```
-> dotnet add package WilderMinds.MinimalApiDiscovery
+> dotnet add package MinimalApis.Discovery
 ```
 
 Or:
 
 ```
-> Install-Package WilderMinds.MinimalApiDiscovery
+> Install-Package MinimalApis.Discovery
 ```
 
 To use the package, you can create API classes that implement the IApi interface:

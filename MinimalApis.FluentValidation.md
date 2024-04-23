@@ -7,7 +7,7 @@
 To install the package:
 
 ```
-dotnet add package MinimalApis.FluentValidation --version 1.0.0-beta
+dotnet add package MinimalApis.FluentValidation
 ```
 
 
