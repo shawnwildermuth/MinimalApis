@@ -50,7 +50,7 @@ public interface IApi
 This allows you to create classes that can bundle several different APIs together or even use .NET 7's Minimal API Grouping. For example, a simple API class might be:
 
 ```csharp
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
 namespace UsingMinimalApiDiscovery.Apis;
 
@@ -71,7 +71,7 @@ you can also use non-lambdas if that is easier (though I suggest static methods
 to prevent usage of instance data that will become a singleton):
 
 ```csharp
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
 namespace UsingMinimalApiDiscovery.Apis;
 
@@ -123,7 +123,7 @@ In this example, I'm using a Mapping Group as well as just using methods to impl
 
 ```csharp
 //Program.cs
-using WilderMinds.MinimalApiDiscovery;
+using MinimalApis.Discovery;
 
 var builder = WebApplication.CreateBuilder(args);
 
